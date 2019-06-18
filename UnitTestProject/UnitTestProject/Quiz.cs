@@ -8,9 +8,14 @@ namespace UnitTestProject
 {
     class Quiz
     {
-        public string[] GenKBTGMail(string[] inputStringArray)
+        static public string[] GenKBTGMail(string[] inputStringArray)
         {
-            return null;
+            return null; //TODO: implement
+        }
+
+        static void Main(string[] args)
+        {
+            GenKBTGMail(null); //For debugging
         }
     }
 }
